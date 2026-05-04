@@ -71,7 +71,7 @@ export default function Hero() {
             transition={{ delay: 2.8, duration: 0.7 }}
             className="font-display text-5xl md:text-7xl font-bold leading-tight mb-4"
           >
-            <span className="gradient-text">Your Name</span>
+            <span className="gradient-text">Tasnim Nova</span>
           </motion.h1>
 
           {/* Title */}

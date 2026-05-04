@@ -18,14 +18,13 @@ export default function Footer() {
           onClick={scrollToTop}
           className="font-display text-lg font-bold gradient-text"
         >
-          {/* ─── 📝 REPLACE: Your initials ─── */}
-          &lt;YN /&gt;
+          &lt;TN /&gt;
         </button>
 
         {/* Copyright */}
         <p className="text-text-dim text-xs text-center">
           {/* ─── 📝 REPLACE: Your name ─── */}
-          © {new Date().getFullYear()} Your Name. Built with{" "}
+          © {new Date().getFullYear()} Tasnim Nova. Built with{" "}
           <span className="text-accent">Next.js</span> &{" "}
           <span className="text-accent2">Framer Motion</span>. Designed with ❤️
         </p>

@@ -47,7 +47,7 @@ export default function Navbar() {
           className="font-display font-bold text-xl gradient-text"
         >
           {/* ─── 📝 REPLACE: Change to your initials or logo ─── */}
-          &lt;YN /&gt;
+          &lt;TN /&gt;
         </button>
 
         {/* Desktop Nav */}

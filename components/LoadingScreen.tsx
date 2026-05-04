@@ -37,7 +37,7 @@ export default function LoadingScreen() {
             <div className="w-24 h-24 rounded-full border-t border-accent ring-rotate flex items-center justify-center">
               {/* ─── 📝 REPLACE: Change "<YN>" to your initials ─── */}
               <span className="font-display text-2xl font-bold gradient-text">
-                YN
+                TN
               </span>
             </div>
           </motion.div>

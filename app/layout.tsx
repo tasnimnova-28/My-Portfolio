@@ -6,11 +6,11 @@ import "./globals.css";
 //    and URL for proper SEO metadata
 // ────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Your Name | Aspiring Web Developer",
+  title: "Tasnim Nova | Aspiring Web Developer",
   description:
     "CSE student & aspiring web developer passionate about building beautiful, responsive web experiences.",
   keywords: ["web developer", "portfolio", "React", "Next.js", "frontend"],
-  authors: [{ name: "Your Name" }],
+  authors: [{ name: "Tasnim Nova" }],
 };
 
 export default function RootLayout({

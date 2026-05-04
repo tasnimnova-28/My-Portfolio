@@ -98,42 +98,13 @@ export default function FloatingAvatar() {
            *  2. Delete the placeholder <div> below
            *  3. Uncomment the <Image> component
            *  ────────────────────────────────────────────────────────────── */}
-
-          {/* PLACEHOLDER - delete this when you add your photo */}
-          <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-surface to-card">
-            {/* Cartoon-style avatar placeholder */}
-            <div className="relative">
-              {/* Head */}
-              <div className="w-20 h-20 rounded-full bg-gradient-to-b from-amber-300 to-amber-400 mx-auto relative">
-                {/* Eyes */}
-                <div className="absolute top-7 left-4 w-3 h-3 rounded-full bg-gray-800" />
-                <div className="absolute top-7 right-4 w-3 h-3 rounded-full bg-gray-800" />
-                {/* Eye shine */}
-                <div className="absolute top-7 left-5 w-1 h-1 rounded-full bg-white" />
-                <div className="absolute top-7 right-5 w-1 h-1 rounded-full bg-white" />
-                {/* Smile */}
-                <div
-                  className="absolute bottom-4 left-1/2 -translate-x-1/2 w-8 h-4 border-b-2 border-gray-700 rounded-b-full"
-                />
-                {/* Hair */}
-                <div className="absolute -top-2 left-1 right-1 h-8 bg-gray-800 rounded-t-full" />
-              </div>
-              {/* Body */}
-              <div className="w-24 h-12 bg-gradient-to-b from-accent/40 to-accent2/40 rounded-t-3xl mx-auto mt-1" />
-            </div>
-            {/* ─── 📝 REPLACE: Your name initial ─── */}
-            <span className="text-xs text-text-dim mt-2 font-mono">You!</span>
-          </div>
-
-          {/* YOUR PHOTO - uncomment this block and delete the placeholder above
           <Image
             src="/avatar.jpg"
-            alt="Your Name"          // ← replace with your name
+            alt="Tasnim Nova"          // ← replace with your name
             fill
             className="object-cover"
             priority
           />
-          */}
         </div>
 
         {/* Tech badges floating around the avatar */}
