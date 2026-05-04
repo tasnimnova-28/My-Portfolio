@@ -251,7 +251,7 @@ export default function Projects() {
             Want to see more of my work?
           </p>
           <a
-            href="https://github.com/yourusername" // ← 📝 REPLACE with your GitHub
+            href="https://github.com/tasnimnova-28" // ← 📝 REPLACE with your GitHub
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 glass border border-border

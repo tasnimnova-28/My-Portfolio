@@ -99,7 +99,7 @@ export default function FloatingAvatar() {
            *  3. Uncomment the <Image> component
            *  ────────────────────────────────────────────────────────────── */}
           <Image
-            src="/avatar.jpeg"
+            src="/avatar.jpg"
             alt="Tasnim Nova"          // ← replace with your name
             fill
             className="object-cover"
@@ -109,11 +109,12 @@ export default function FloatingAvatar() {
 
         {/* Tech badges floating around the avatar */}
         {[
-          { label: "React", color: "#61dafb", angle: -45, radius: 115 },
-          { label: "JS", color: "#f7df1e", angle: 45, radius: 110 },
-          { label: "CSS", color: "#264de4", angle: 135, radius: 115 },
-          { label: "HTML", color: "#e44d26", angle: 225, radius: 110 },
-        ].map((badge) => {
+  { label: "React", color: "#61dafb", angle: -90,  radius: 115 },
+  { label: "JS",    color: "#f7df1e", angle: -18,  radius: 110 },
+  { label: "Next",  color: "#ffffff", angle: 54,   radius: 115 },
+  { label: "CSS",   color: "#264de4", angle: 126,  radius: 110 },
+  { label: "HTML",  color: "#e44d26", angle: 198,  radius: 115 },
+].map((badge) => {
           const rad = (badge.angle * Math.PI) / 180;
           const x = Math.cos(rad) * badge.radius;
           const y = Math.sin(rad) * badge.radius;
