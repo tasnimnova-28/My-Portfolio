@@ -156,7 +156,7 @@ export default function About() {
                 {[
                   /* ─── 📝 REPLACE: Add your own learning topics ─── */
                   "Next.js 14",
-                  "TypeScript",
+                  "MongoDB",
                   "UI/UX Design",
                   "Node.js",
                   "Open Source",

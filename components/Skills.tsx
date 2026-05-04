@@ -26,7 +26,7 @@ const SKILL_CATEGORIES = [
       { name: "VS Code", level: 90, color: "#007acc" },
       { name: "Figma", level: 50, color: "#f24e1e" },
       { name: "Node.js", level: 40, color: "#68a063" },
-      { name: "TypeScript", level: 45, color: "#3178c6" },
+      { name: "MongoDB", level: 45, color: "#3178c6" },
       { name: "REST APIs", level: 60, color: "#00e5ff" },
     ],
   },
@@ -42,6 +42,7 @@ const TECH_LOGOS = [
   { name: "Tailwind", bg: "#38bdf822", emoji: "🌊" },
   { name: "Git", bg: "#f0503222", emoji: "📦" },
   { name: "Node", bg: "#68a06322", emoji: "🟢" },
+  { name: "MongoDB", bg: "#3178c622", emoji: "🍃" },
 ];
 
 /**

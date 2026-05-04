@@ -25,56 +25,56 @@ const PROJECTS = [
       "The very portfolio you're looking at! Built with Next.js, Tailwind CSS, and Framer Motion to showcase my skills and projects.",
     tags: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
     demo: "#",
-    github: "https://github.com/yourusername/portfolio", // ← replace
+    github: "https://github.com/tasnimnova-28/My-Portfolio", // ← replace
     emoji: "🎨",
     featured: true,
     gradient: "from-cyan-500/10 to-purple-500/10",
   },
   {
-    title: "Weather Dashboard",
+    title: "KeenKeeper",
     description:
-      "A responsive weather app that shows real-time forecasts using the OpenWeatherMap API with dynamic backgrounds.",
+      "🌿 KeenKeeper is a modern React-based relationship tracking and activity timeline app designed to help users keep track of meaningful interactions with friends. It allows users to log and organize activities like calls, texts, video chats, and meetups in a clean and intuitive timeline interface.",
     tags: ["React", "API", "CSS", "JavaScript"],
     demo: "#",
-    github: "https://github.com/yourusername/weather-app", // ← replace
-    emoji: "⛅",
+    github: "https://github.com/tasnimnova-28/KeenKeeper", // ← replace
+    emoji: "🌿",
     featured: false,
     gradient: "from-blue-500/10 to-cyan-500/10",
   },
   {
-    title: "Todo App",
+    title: "Job Tracker System",
     description:
-      "A feature-rich todo application with local storage persistence, priority levels, and drag-and-drop reordering.",
+      "A website on job tracking using html,css and vanilla js. It allows users to add, edit, and delete job entries, providing a simple way to manage job applications and track their progress.",
     tags: ["React", "Hooks", "Local Storage"],
     demo: "#",
-    github: "https://github.com/yourusername/todo-app", // ← replace
-    emoji: "✅",
+    github: "https://github.com/tasnimnova-28/jobtrackersystem", // ← replace
+    emoji: "🔍💼",
     featured: false,
     gradient: "from-green-500/10 to-teal-500/10",
   },
   {
-    title: "Restaurant Landing Page",
+    title: "Digitools Platform",
     description:
-      "A beautiful, animated landing page for a fictional restaurant with smooth scrolling and a menu section.",
+      "A modern digital tools marketplace where users can browse premium AI tools, add them to cart, and manage purchases — built with React.js and Tailwind CSS.",
     tags: ["HTML", "CSS", "JavaScript"],
     demo: "#",
-    github: "https://github.com/yourusername/restaurant", // ← replace
-    emoji: "🍕",
+    github: "https://github.com/tasnimnova-28/Digitools-platform", // ← replace
+    emoji: "📦⚙️",
     featured: false,
     gradient: "from-orange-500/10 to-red-500/10",
   },
   {
-    title: "Quiz App",
+    title: "Github Tracker System",
     description:
-      "An interactive quiz application with multiple categories, score tracking, and a leaderboard feature.",
+      "A simple GitHub repository tracker that allows users to monitor their favorite repositories and view their activity.",
     tags: ["JavaScript", "HTML", "CSS"],
     demo: "#",
-    github: "https://github.com/yourusername/quiz-app", // ← replace
+    github: "https://github.com/tasnimnova-28/github-tracker-systemm", // ← replace
     emoji: "🧠",
     featured: false,
     gradient: "from-purple-500/10 to-pink-500/10",
   },
-  {
+  /*{
     title: "Expense Tracker",
     description:
       "A personal finance tracker that helps users manage income and expenses with charts and monthly summaries.",
@@ -84,7 +84,7 @@ const PROJECTS = [
     emoji: "💰",
     featured: false,
     gradient: "from-yellow-500/10 to-orange-500/10",
-  },
+  },*/
 ];
 
 function ProjectCard({
