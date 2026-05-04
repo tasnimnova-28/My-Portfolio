@@ -99,7 +99,7 @@ export default function FloatingAvatar() {
            *  3. Uncomment the <Image> component
            *  ────────────────────────────────────────────────────────────── */}
           <Image
-            src="/avatar.jpg"
+            src="/avatar.jpeg"
             alt="Tasnim Nova"          // ← replace with your name
             fill
             className="object-cover"

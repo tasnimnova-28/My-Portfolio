@@ -8,26 +8,26 @@ const SOCIAL_LINKS = [
   {
     name: "GitHub",
     emoji: "🐱",
-    url: "https://github.com/yourusername",
-    label: "@yourusername",
+    url: "https://github.com/tasnimnova-28",
+    label: "@tasnimnova-28",
   },
   {
     name: "LinkedIn",
     emoji: "💼",
     url: "https://linkedin.com/in/yourprofile",
-    label: "Your Name",
+    label: "Tasnim Nova",
   },
-  {
+  /*{
     name: "Twitter / X",
     emoji: "🐦",
     url: "https://twitter.com/yourhandle",
     label: "@yourhandle",
-  },
+  },*/
   {
     name: "Email",
     emoji: "✉️",
-    url: "mailto:your.email@example.com",  // ← replace with your email
-    label: "your.email@example.com",
+    url: "mailto:tasnimnova12521132@gmail.com",  // ← replace with your email
+    label: "tasnimnova12521132@gmail.com",
   },
 ];
 
@@ -54,24 +54,23 @@ export default function Contact() {
   // - Use EmailJS
   // - Build a simple API route with Next.js
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus("sending");
+  e.preventDefault();
+  setStatus("sending");
 
-    // Simulate sending (replace with real email service)
-    await new Promise((r) => setTimeout(r, 1500));
+  const res = await fetch("https://formspree.io/f/xzdoegap", {  // ← paste your ID
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(formData),
+  });
 
-    // For Formspree, replace the above with:
-    // const res = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify(formData),
-    // });
-    // if (res.ok) setStatus("sent"); else setStatus("error");
-
+  if (res.ok) {
     setStatus("sent");
     setFormData({ name: "", email: "", message: "" });
     setTimeout(() => setStatus("idle"), 4000);
-  };
+  } else {
+    setStatus("error");
+  }
+};
 
   return (
     <section id="contact" className="py-28 relative">
@@ -144,7 +143,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    placeholder="john@example.com"
+                    placeholder="tasnimnova12521132@gmail.com"
                     className="w-full bg-surface border border-border rounded-lg px-4 py-2.5 text-sm text-text
                                placeholder:text-muted outline-none focus:border-accent/50 focus:ring-1 focus:ring-accent/20
                                transition-colors duration-200"
