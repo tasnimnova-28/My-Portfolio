@@ -14,7 +14,7 @@ const SOCIAL_LINKS = [
   {
     name: "LinkedIn",
     emoji: "💼",
-    url: "https://linkedin.com/in/yourprofile",
+    url: "https://www.linkedin.com/in/tasnimnova-dev/",
     label: "Tasnim Nova",
   },
   /*{
@@ -143,7 +143,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    placeholder="tasnimnova12521132@gmail.com"
+                    placeholder="yourname@gmail.com"
                     className="w-full bg-surface border border-border rounded-lg px-4 py-2.5 text-sm text-text
                                placeholder:text-muted outline-none focus:border-accent/50 focus:ring-1 focus:ring-accent/20
                                transition-colors duration-200"

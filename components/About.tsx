@@ -66,7 +66,7 @@ export default function About() {
                 {/* ─── 📝 REPLACE: Update with your actual info ─── */}
                 <p className="text-text pl-4">
                   <span className="text-text-dim">name</span>:{" "}
-                  <span className="text-accent3">&apos;Your Name&apos;</span>,
+                  <span className="text-accent3">&apos;Tasnim Nova&apos;</span>,
                 </p>
                 <p className="text-text pl-4">
                   <span className="text-text-dim">role</span>:{" "}
@@ -77,7 +77,7 @@ export default function About() {
                 <p className="text-text pl-4">
                   <span className="text-text-dim">university</span>:{" "}
                   <span className="text-accent3">
-                    &apos;Your University&apos;
+                    &apos;University of Global Village&apos;
                   </span>,
                 </p>
                 <p className="text-text pl-4">
